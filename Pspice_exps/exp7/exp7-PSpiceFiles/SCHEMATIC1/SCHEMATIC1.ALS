@@ -1,0 +1,7 @@
+.ALIASES
+R_R1            R1(1=N00183 2=N00190 ) CN @EXP7.SCHEMATIC1(sch_1):INS26@ANALOG.R.Normal(chips)
+R_R2            R2(1=N00190 2=N00203 ) CN @EXP7.SCHEMATIC1(sch_1):INS42@ANALOG.R.Normal(chips)
+C_C1            C1(1=0 2=N00190 ) CN @EXP7.SCHEMATIC1(sch_1):INS67@ANALOG.C.Normal(chips)
+L_L1            L1(1=N00203 2=0 ) CN @EXP7.SCHEMATIC1(sch_1):INS92@ANALOG.L.Normal(chips)
+V_V1            V1(+=N00183 -=0 ) CN @EXP7.SCHEMATIC1(sch_1):INS129@SOURCE.VPULSE.Normal(chips)
+.ENDALIASES

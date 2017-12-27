@@ -1,0 +1,148 @@
+
+**** 11/29/16 15:46:29 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1_freqresponse"  [ C:\SP\PSPICE_EXPS\exp11\exp11-PSpiceFiles\SCHEMATIC1\sim1_freqresponse.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1_freqresponse.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\SRIJANPABBI\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 50 100 1e6
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXP11
+Q_Q1         N00411 N00384 N00418 Q2N2222
+V_V1         N00407 0 15
+V_V2         0 N00425 15
+R_R1         N00384 N00407  20k TC=0,0 
+R_R2         N00425 N00384  10k TC=0,0 
+R_R3         N00411 N00407  2.2k TC=0,0 
+R_R4         N00425 N00418  1k TC=0,0 
+R_R5         0 N00411  10k TC=0,0 
+R_R6         N00369 N00376  1k TC=0,0 
+C_C1         N00376 N00384  0.1u  TC=0,0 
+C_C2         0 N00411  0.01u  TC=0,0 
+V_V3         N00369 0 DC 0Vdc AC 0.1 
+
+**** RESUMING sim1_freqresponse.cir ****
+.END
+
+**** 11/29/16 15:46:29 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1_freqresponse"  [ C:\SP\PSPICE_EXPS\exp11\exp11-PSpiceFiles\SCHEMATIC1\sim1_freqresponse.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2N2222         
+               NPN             
+       LEVEL    1            
+          IS   14.340000E-15 
+          BF  255.9          
+          NF    1            
+         VAF   74.03         
+         IKF     .2847       
+         ISE   14.340000E-15 
+          NE    1.307        
+          BR    6.092        
+          NR    1            
+         ISS    0            
+          RB   10            
+          RE    0            
+          RC    1            
+         CJE   22.010000E-12 
+         VJE     .75         
+         MJE     .377        
+         CJC    7.306000E-12 
+         VJC     .75         
+         MJC     .3416       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  411.100000E-12 
+         XTF    3            
+         VTF    1.7          
+         ITF     .6          
+          TR   46.910000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 11/29/16 15:46:29 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1_freqresponse"  [ C:\SP\PSPICE_EXPS\exp11\exp11-PSpiceFiles\SCHEMATIC1\sim1_freqresponse.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00369)    0.0000 (N00376)    0.0000 (N00384)   -5.3359 (N00407)   15.0000     
+
+(N00411)   -3.7732 (N00418)   -6.0390 (N00425)  -15.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -9.550E-03
+    V_V2        -9.927E-03
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   2.92E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/29/16 15:46:29 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1_freqresponse"  [ C:\SP\PSPICE_EXPS\exp11\exp11-PSpiceFiles\SCHEMATIC1\sim1_freqresponse.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

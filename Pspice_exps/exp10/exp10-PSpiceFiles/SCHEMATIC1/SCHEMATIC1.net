@@ -1,0 +1,4 @@
+* source EXP10
+R_R1         N00112 N00119  1k TC=0,0 
+L_L1         N00119 0  10uH  
+V_V1         N00112 0 DC 0Vdc AC 1Vac 

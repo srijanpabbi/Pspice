@@ -1,0 +1,5 @@
+.ALIASES
+R_R1            R1(1=N00112 2=N00119 ) CN @EXP10.SCHEMATIC1(sch_1):INS26@ANALOG.R.Normal(chips)
+L_L1            L1(1=N00119 2=0 ) CN @EXP10.SCHEMATIC1(sch_1):INS51@ANALOG.L.Normal(chips)
+V_V1            V1(+=N00112 -=0 ) CN @EXP10.SCHEMATIC1(sch_1):INS78@SOURCE.VAC.Normal(chips)
+.ENDALIASES

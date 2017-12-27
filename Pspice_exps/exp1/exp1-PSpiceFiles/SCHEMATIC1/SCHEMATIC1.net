@@ -1,0 +1,5 @@
+* source EXP1
+V_V1         N14386 N14421 15Vdc
+R_R1         N14386 N14395  2k TC=0,0 
+R_R2         0 N14395  0.5k TC=0,0 
+R_R3         0 N14421  1k TC=0,0 

@@ -1,0 +1,7 @@
+* source EXP7
+R_R1         N00183 N00190  6 TC=0,0 
+R_R2         N00190 N00203  4 TC=0,0 
+C_C1         0 N00190  20u  TC=0,0 
+L_L1         N00203 0  2mH  
+V_V1         N00183 0  
++PULSE 0 0.5 1m 50u 50u 0.45m 1m

@@ -1,0 +1,16 @@
+* source EXP5
+R_R1         N00182 N00189  1.5k TC=0,0 
+L_L1         N00189 N00193  8mH  
+C_C1         0 N00193  5nF  TC=0,0 
+V_V1         N00182 0  
++PULSE 0 1 0 1ns 1ns 0.5m 1ms
+C_C2         0 N01104  10u  TC=0,0 
+R_R2         N01088 N01098  1 TC=0,0 
+V_V2         N01088 0  
++PULSE 0 1 0 1ns 1ns 1ms 1ms
+L_L2         N01098 N01104  50u  
+V_V3         N01468 0  
++PULSE 0 1 0 1ns 1ns 1ms 1ms
+R_R3         N01468 N01478  8 TC=0,0 
+C_C3         0 N01484  10u  TC=0,0 
+L_L3         N01478 N01484  10uH  

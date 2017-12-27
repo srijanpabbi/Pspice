@@ -1,0 +1,62 @@
+
+**** 11/29/16 09:45:41 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\SP\PSPICE_EXPS\exp3\exp3-PSpiceFiles\SCHEMATIC1\sim1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\SRIJANPABBI\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC V_V1 LIST 100,120,150 
++ V_V2 LIST 80,110,140 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EXP3
+V_V1         0 N00153 0Vdc
+V_V2         N00149 0 0Vdc
+R_R1         N00153 N00160  20k TC=0,0 
+R_R2         N00160 N00164  50k TC=0,0 
+R_R3         N00149 N00164  25k TC=0,0 
+R_R4         0 N00160  54k TC=0,0 
+R_R5         0 N00164  5k TC=0,0 
+
+**** RESUMING sim1.cir ****
+.END
+
+
+          JOB CONCLUDED
+
+**** 11/29/16 09:45:41 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\SP\PSPICE_EXPS\exp3\exp3-PSpiceFiles\SCHEMATIC1\sim1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+
